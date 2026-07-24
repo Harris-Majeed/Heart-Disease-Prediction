@@ -1,7 +1,7 @@
 # Heart Disease Prediction
 
 - LinkedIn [Haris Majeed](https://www.linkedin.com/in/hemakalyan)
-- Medium [Harris-Majeed](https://medium.com/@kalyanmurapaka274)
+- Medium [Harris-Majeed](https://linkedin.com/in/haris-majeed-896550203)
 
 
 ## About The Project
