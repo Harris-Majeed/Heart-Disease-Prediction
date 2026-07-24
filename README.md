@@ -1,6 +1,6 @@
 # Heart Disease Prediction
 
-- LinkedIn [Haris Majeed](https://www.linkedin.com/in/hemakalyan)
+- LinkedIn [Haris Majeed](https://www.linkedin.com/in/haris-majeed-896550203)
 - Medium [Harris-Majeed](https://linkedin.com/in/haris-majeed-896550203)
 
 
@@ -103,13 +103,13 @@ If you prefer to use Docker, you can install and run the project using a Docker 
    - Open your terminal or command prompt.
    - Run the following command to pull the Docker image from DockerHub:
      ```
-     docker pull kalyan45/heart-app
+     docker pull harris-majeed/heart-app
      ```
 
 2. **Run the Docker Container**
    - Start the Docker container by running the following command, and mapping any necessary ports:
      ```
-     docker run -p 5000:5000 kalyan45/heart-app
+     docker run -p 5000:5000 harris-majeed/heart-app
      ```
 
 3. **Access the Project**
@@ -122,9 +122,9 @@ If you prefer to use Docker, you can install and run the project using a Docker 
 We use MLflow to log and track our machine learning experiments. The MLFLOW_TRACKING_URI environment variable is set to the DagsHub repository's MLflow tracking URI.
 
 ```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/HemaKalyan45/Heart-Disease-Prediction.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/Harris-Majeed/Heart-Disease-Prediction.mlflow
 
-export MLFLOW_TRACKING_USERNAME=HemaKalyan45
+export MLFLOW_TRACKING_USERNAME=Harris-Majeed
 
 export MLFLOW_TRACKING_PASSWORD=f3c9457eb0ff83244e93ac8ee651b80d4b35f07c
 ```

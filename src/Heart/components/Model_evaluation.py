@@ -27,7 +27,7 @@ class ModelEvaluation:
             model_path=os.path.join("Artifacts","Model.pkl")
             model=load_object(model_path)
 
-            mlflow.set_registry_uri("https://dagshub.com/HemaKalyan45/Heart-Disease-Prediction.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/Harris-Majeed/Heart-Disease-Prediction.mlflow")
                         
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             

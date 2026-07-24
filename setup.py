@@ -15,7 +15,7 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name="HeartDiseasePrediction",
     version="0.0.1",
-    author="Hema_Kalyan",
+    author="Haris_Majeed",
     author_email="harismajeed299@gmail.com",
     install_requires=get_requirements("requirements.txt"),
     packages=find_packages()
